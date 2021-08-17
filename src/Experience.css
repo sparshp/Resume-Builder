@@ -1,0 +1,88 @@
+.rightside__experience{
+    padding:10px 30px;
+    
+}
+.experience__item{
+    border-top: 1px solid gray;
+    margin-top:10px;
+    padding-top:10px;
+}
+.experience__itemBox{
+    display: flex;
+    padding:10px;
+    border-left: 2px solid gray;
+}
+.itemBox__year{
+    flex: 0.25; 
+}
+.itemBox__year p{
+    font-size:small;
+}
+.experience__content{
+    flex: 1;
+    text-align:left;
+    padding-left: 20px;
+    
+}
+.experience__content p{
+    font-size: small;
+}
+.experience__date{
+    background:transparent;
+    border:none;
+    color: black;
+    font-weight:bold;
+   box-sizing: 6px;
+   width: 77px;
+   outline:none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.experience__possition{
+    background:transparent;
+    border:none;
+    color: black;
+    font-weight:bolder;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experience__company{
+    background:transparent;
+    border:none;
+    color: black;
+    font-weight: bold;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.experience__details{
+    background:transparent;
+    border:none;
+    color: gray;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project__time{
+    display: flex;
+    padding-top: 5px;
+    
+}
+.project__details{
+    background:transparent;
+    border:none;
+    color: black;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

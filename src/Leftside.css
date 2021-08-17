@@ -1,0 +1,111 @@
+.leftside{
+    -webkit-print-color-adjust: exact;
+    display:flex;
+    flex-direction:column;
+    flex:0.25;
+    background-color: #141414;
+    height:1060px;
+    width: 250px;
+}
+.leftside__img{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 30px; 
+    cursor: pointer;
+    
+}
+.avatar{
+    height:160px;
+    width:160px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+.leftside__content{
+    display: inline;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    
+}
+.leftside__content p{
+    color:whitesmoke;
+}
+.leftside__basicInfo{
+    flex: 1;
+    padding: 10px;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.mail{
+    display: flex;
+    padding: 5px;
+    text-align: left;   
+}
+.mail p{
+    padding-left: 10px;
+    font-size:small;
+}
+.leftside__skills{
+    padding: 10px;
+    border-top: 1px solid gray; 
+}
+.skill__language{
+    padding: 15px;
+}
+.skill__language h5{
+    padding-bottom: 3px;
+}
+.skill__language p{
+    padding-bottom: 15px;
+    font-size:small;
+}
+.leftside__language{
+    padding:10px;
+    border-top: 1px solid gray;
+}
+.language{
+    padding: 15px;
+}
+.language h5{
+    padding-bottom: 3px;
+}
+.language p{
+    padding-bottom: 15px;
+    font-size:small;
+}
+.BasicInfo__link{
+    background:transparent;
+    border:none;
+    text-align:left;
+    color: white;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:25px;
+    padding-left: 10px;
+}
+.skill{
+    background:transparent;
+    border:none;
+    color: whitesmoke;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.language__native{
+    background:transparent;
+    border:none;
+    color: whitesmoke;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

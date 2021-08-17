@@ -1,0 +1,31 @@
+.rightside{
+    background-color:white;
+    color:black;
+    display: flex;
+    flex: 0.75;
+    flex-direction:column;
+    height:1060px;
+}
+.rightside__header{
+    align-items:center;
+    padding: 30px 30px 0px 30px;
+}
+.rightside__header h2{
+    font-size:60px;
+}
+.exp__btn{
+    background-color: transparent;
+    margin-left: 30px;
+}
+.header__sub{
+    padding-top:10px;
+    font-size:medium;
+    background:transparent;
+    border:none;
+    color: black;
+    outline:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
